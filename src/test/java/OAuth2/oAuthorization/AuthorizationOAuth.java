@@ -10,6 +10,6 @@ public class AuthorizationOAuth {
 	@Test
 	public void Oauth2Demo() {
 		RequestSpecification reqSpec = RestAssured.given();
-		
+		g
 	}
 }
