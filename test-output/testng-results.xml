@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-17T16:59:18 IST" name="Default suite" finished-at="2024-07-17T16:59:21 IST" duration-ms="2795">
+  <suite started-at="2024-07-18T12:12:27 IST" name="Default suite" finished-at="2024-07-18T12:12:31 IST" duration-ms="3651">
     <groups>
     </groups>
-    <test started-at="2024-07-17T16:59:18 IST" name="Default test" finished-at="2024-07-17T16:59:21 IST" duration-ms="2795">
-      <class name="AuthenticationOrAuthorization.ApiKeyAuthorization">
-        <test-method signature="GetWheatherDataByCity()[pri:0, instance:AuthenticationOrAuthorization.ApiKeyAuthorization@3e2e18f2]" started-at="2024-07-17T16:59:18 IST" name="GetWheatherDataByCity" finished-at="2024-07-17T16:59:21 IST" duration-ms="2767" status="PASS">
+    <test started-at="2024-07-18T12:12:27 IST" name="Default test" finished-at="2024-07-18T12:12:31 IST" duration-ms="3651">
+      <class name="OAuth2.oAuthorization.AuthorizationOAuth">
+        <test-method signature="GetAccessToken()[pri:0, instance:OAuth2.oAuthorization.AuthorizationOAuth@703580bf]" started-at="2024-07-18T12:12:27 IST" name="GetAccessToken" finished-at="2024-07-18T12:12:30 IST" duration-ms="2779" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GetWheatherDataByCity -->
-      </class> <!-- AuthenticationOrAuthorization.ApiKeyAuthorization -->
+        </test-method> <!-- GetAccessToken -->
+        <test-method signature="ListInvoice()[pri:0, instance:OAuth2.oAuthorization.AuthorizationOAuth@703580bf]" started-at="2024-07-18T12:12:30 IST" name="ListInvoice" finished-at="2024-07-18T12:12:31 IST" depends-on-methods="OAuth2.oAuthorization.AuthorizationOAuth.GetAccessToken" duration-ms="846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListInvoice -->
+      </class> <!-- OAuth2.oAuthorization.AuthorizationOAuth -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

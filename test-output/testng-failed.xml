@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AuthenticationOrAuthorization.ApiKeyAuthorization">
+      <class name="OAuth2.oAuthorization.AuthorizationOAuth">
         <methods>
-          <include name="GetWheatherDataByCity"/>
+          <include name="ListInvoice"/>
+          <include name="GetAccessToken"/>
         </methods>
-      </class> <!-- AuthenticationOrAuthorization.ApiKeyAuthorization -->
+      </class> <!-- OAuth2.oAuthorization.AuthorizationOAuth -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
